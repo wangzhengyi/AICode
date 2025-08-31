@@ -5,3 +5,8 @@ __pycache__
 *.pyc
 .env
 .ipynb_checkpoints
+
+# 忽略所有子目录中的隐藏文件
+**/.*
+!**/.gitignore
+!**/.gitkeep
