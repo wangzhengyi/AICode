@@ -1,0 +1,108 @@
+2025-09-05 14:30:39 - RAGSystem - INFO - ℹ️ 🚀 RAG系统启动中...
+2025-09-05 14:30:39 - RAGSystem - INFO - ℹ️ 文档处理器初始化完成 - 块大小: 500, 重叠: 50
+2025-09-05 14:30:39 - RAGSystem - INFO - ℹ️ 正在加载向量化模型: shibing624/text2vec-base-chinese
+2025-09-05 14:32:04 - RAGSystem - INFO - ✅ 模型加载完成 - 耗时: 84.53秒
+2025-09-05 14:32:04 - RAGSystem - INFO - ℹ️ 正在初始化ChromaDB
+2025-09-05 14:32:05 - RAGSystem - INFO - ✅ ChromaDB初始化完成 - 集合: rag_documents
+2025-09-05 14:32:05 - RAGSystem - INFO - ℹ️ 正在加载重排序模型: cross-encoder/mmarco-mMiniLMv2-L12-H384-v1
+2025-09-05 14:33:51 - RAGSystem - INFO - ✅ 重排序模型加载完成 - 耗时: 106.38秒
+2025-09-05 14:33:51 - RAGSystem - INFO - ℹ️ 正在初始化DeepSeek客户端
+2025-09-05 14:33:51 - RAGSystem - INFO - ✅ DeepSeek客户端初始化完成
+2025-09-05 14:33:51 - RAGSystem - INFO - ✅ RAG系统初始化完成
+2025-09-05 14:33:51 - RAGSystem - INFO - ℹ️ 开始处理新文档
+2025-09-05 14:43:50 - RAGSystem - INFO - ℹ️ 🚀 RAG系统启动中...
+2025-09-05 14:43:50 - RAGSystem - INFO - ℹ️ 文档处理器初始化完成 - 块大小: 500, 重叠: 50
+2025-09-05 14:43:50 - RAGSystem - INFO - ℹ️ 正在加载向量化模型: shibing624/text2vec-base-chinese
+2025-09-05 14:43:56 - RAGSystem - INFO - ✅ 模型加载完成 - 耗时: 6.12秒
+2025-09-05 14:43:56 - RAGSystem - INFO - ℹ️ 正在初始化ChromaDB
+2025-09-05 14:43:56 - RAGSystem - INFO - ✅ ChromaDB初始化完成 - 集合: rag_documents
+2025-09-05 14:43:56 - RAGSystem - INFO - ℹ️ 正在加载重排序模型: cross-encoder/mmarco-mMiniLMv2-L12-H384-v1
+2025-09-05 14:43:59 - RAGSystem - INFO - ✅ 重排序模型加载完成 - 耗时: 3.06秒
+2025-09-05 14:43:59 - RAGSystem - INFO - ℹ️ 正在初始化DeepSeek客户端
+2025-09-05 14:43:59 - RAGSystem - INFO - ✅ DeepSeek客户端初始化完成
+2025-09-05 14:43:59 - RAGSystem - INFO - ✅ RAG系统初始化完成
+2025-09-05 14:43:59 - RAGSystem - INFO - ℹ️ 开始处理新文档
+2025-09-05 14:48:41 - RAGSystem - INFO - ℹ️ 🚀 RAG系统启动中...
+2025-09-05 14:48:41 - RAGSystem - INFO - ℹ️ 文档处理器初始化完成 - 块大小: 500, 重叠: 50
+2025-09-05 14:48:41 - RAGSystem - INFO - ℹ️ 正在加载向量化模型: shibing624/text2vec-base-chinese
+2025-09-05 14:48:47 - RAGSystem - INFO - ✅ 模型加载完成 - 耗时: 6.05秒
+2025-09-05 14:48:47 - RAGSystem - INFO - ℹ️ 正在初始化ChromaDB
+2025-09-05 14:48:47 - RAGSystem - INFO - ✅ ChromaDB初始化完成 - 集合: rag_documents
+2025-09-05 14:48:47 - RAGSystem - INFO - ℹ️ 正在加载重排序模型: cross-encoder/mmarco-mMiniLMv2-L12-H384-v1
+2025-09-05 14:48:50 - RAGSystem - INFO - ✅ 重排序模型加载完成 - 耗时: 3.12秒
+2025-09-05 14:48:50 - RAGSystem - INFO - ℹ️ 正在初始化DeepSeek客户端
+2025-09-05 14:48:50 - RAGSystem - INFO - ✅ DeepSeek客户端初始化完成
+2025-09-05 14:48:50 - RAGSystem - INFO - ✅ RAG系统初始化完成
+2025-09-05 14:48:50 - RAGSystem - INFO - ℹ️ 开始处理新文档
+2025-09-05 14:48:50 - RAGSystem - INFO - ✅ 文本分割完成 - 原文长度: 998, 生成块数: 4
+2025-09-05 14:48:50 - RAGSystem - INFO - ℹ️ 开始批量向量化 - 文本数量: 4
+2025-09-05 14:48:53 - RAGSystem - INFO - ✅ 批量向量化完成 - 耗时: 3.02秒
+2025-09-05 14:48:53 - RAGSystem - INFO - ℹ️ 正在添加文档到数据库 - 数量: 4
+2025-09-05 14:48:53 - RAGSystem - INFO - ✅ 文档添加完成 - 总数: 4
+2025-09-05 14:48:53 - RAGSystem - INFO - ✅ 文档添加完成 - 共 4 个块
+2025-09-05 14:48:53 - RAGSystem - INFO - ℹ️ 开始处理查询: 哆啦A梦使用的3个秘密道具分别是什么？
+2025-09-05 14:48:55 - RAGSystem - INFO - ℹ️ 正在执行语义搜索 - top_k: 5
+2025-09-05 14:48:55 - RAGSystem - INFO - ✅ 搜索完成 - 找到 4 个相关文档
+2025-09-05 14:48:55 - RAGSystem - INFO - ℹ️ 正在重排序 - 文档数量: 4
+2025-09-05 14:48:58 - RAGSystem - INFO - ✅ 重排序完成 - 返回 3 个文档
+2025-09-05 14:48:58 - RAGSystem - INFO - ℹ️ 正在生成答案 - 查询: 哆啦A梦使用的3个秘密道具分别是什么？...
+2025-09-05 14:49:05 - RAGSystem - INFO - ✅ 答案生成完成 - 长度: 135
+2025-09-05 14:49:05 - RAGSystem - INFO - ✅ 查询完成 - 耗时: 12.25秒
+2025-09-05 14:49:05 - RAGSystem - INFO - ℹ️ 开始处理查询: 大雄在精神与时光屋中训练了多长时间？
+2025-09-05 14:49:05 - RAGSystem - INFO - ℹ️ 正在执行语义搜索 - top_k: 5
+2025-09-05 14:49:05 - RAGSystem - INFO - ✅ 搜索完成 - 找到 4 个相关文档
+2025-09-05 14:49:05 - RAGSystem - INFO - ℹ️ 正在重排序 - 文档数量: 4
+2025-09-05 14:49:05 - RAGSystem - INFO - ✅ 重排序完成 - 返回 3 个文档
+2025-09-05 14:49:05 - RAGSystem - INFO - ℹ️ 正在生成答案 - 查询: 大雄在精神与时光屋中训练了多长时间？...
+2025-09-05 14:49:11 - RAGSystem - INFO - ✅ 答案生成完成 - 长度: 121
+2025-09-05 14:49:11 - RAGSystem - INFO - ✅ 查询完成 - 耗时: 5.95秒
+2025-09-05 14:49:11 - RAGSystem - INFO - ℹ️ 开始处理查询: 特兰克斯来自哪里，他遇到了什么问题？
+2025-09-05 14:49:11 - RAGSystem - INFO - ℹ️ 正在执行语义搜索 - top_k: 5
+2025-09-05 14:49:11 - RAGSystem - INFO - ✅ 搜索完成 - 找到 4 个相关文档
+2025-09-05 14:49:11 - RAGSystem - INFO - ℹ️ 正在重排序 - 文档数量: 4
+2025-09-05 14:49:11 - RAGSystem - INFO - ✅ 重排序完成 - 返回 3 个文档
+2025-09-05 14:49:11 - RAGSystem - INFO - ℹ️ 正在生成答案 - 查询: 特兰克斯来自哪里，他遇到了什么问题？...
+2025-09-05 14:49:19 - RAGSystem - INFO - ✅ 答案生成完成 - 长度: 154
+2025-09-05 14:49:19 - RAGSystem - INFO - ✅ 查询完成 - 耗时: 7.96秒
+2025-09-05 14:50:08 - RAGSystem - INFO - ℹ️ 🚀 RAG系统启动中...
+2025-09-05 14:50:08 - RAGSystem - INFO - ℹ️ 文档处理器初始化完成 - 块大小: 500, 重叠: 50
+2025-09-05 14:50:08 - RAGSystem - INFO - ℹ️ 正在加载向量化模型: shibing624/text2vec-base-chinese
+2025-09-05 14:50:14 - RAGSystem - INFO - ✅ 模型加载完成 - 耗时: 5.49秒
+2025-09-05 14:50:14 - RAGSystem - INFO - ℹ️ 正在初始化ChromaDB
+2025-09-05 14:50:14 - RAGSystem - INFO - ✅ ChromaDB初始化完成 - 集合: rag_documents
+2025-09-05 14:50:14 - RAGSystem - INFO - ℹ️ 正在加载重排序模型: cross-encoder/mmarco-mMiniLMv2-L12-H384-v1
+2025-09-05 14:50:16 - RAGSystem - INFO - ✅ 重排序模型加载完成 - 耗时: 2.52秒
+2025-09-05 14:50:16 - RAGSystem - INFO - ℹ️ 正在初始化DeepSeek客户端
+2025-09-05 14:50:16 - RAGSystem - INFO - ✅ DeepSeek客户端初始化完成
+2025-09-05 14:50:16 - RAGSystem - INFO - ✅ RAG系统初始化完成
+2025-09-05 14:50:16 - RAGSystem - INFO - ℹ️ 开始处理新文档
+2025-09-05 14:50:16 - RAGSystem - INFO - ✅ 文本分割完成 - 原文长度: 998, 生成块数: 4
+2025-09-05 14:50:16 - RAGSystem - INFO - ℹ️ 开始批量向量化 - 文本数量: 4
+2025-09-05 14:50:17 - RAGSystem - INFO - ✅ 批量向量化完成 - 耗时: 0.21秒
+2025-09-05 14:50:17 - RAGSystem - INFO - ℹ️ 正在添加文档到数据库 - 数量: 4
+2025-09-05 14:50:17 - RAGSystem - INFO - ✅ 文档添加完成 - 总数: 4
+2025-09-05 14:50:17 - RAGSystem - INFO - ✅ 文档添加完成 - 共 4 个块
+2025-09-05 14:50:17 - RAGSystem - INFO - ℹ️ 开始处理查询: 哆啦A梦使用的3个秘密道具分别是什么？
+2025-09-05 14:50:17 - RAGSystem - INFO - ℹ️ 正在执行语义搜索 - top_k: 5
+2025-09-05 14:50:17 - RAGSystem - INFO - ✅ 搜索完成 - 找到 4 个相关文档
+2025-09-05 14:50:17 - RAGSystem - INFO - ℹ️ 正在重排序 - 文档数量: 4
+2025-09-05 14:50:17 - RAGSystem - INFO - ✅ 重排序完成 - 返回 3 个文档
+2025-09-05 14:50:17 - RAGSystem - INFO - ℹ️ 正在生成答案 - 查询: 哆啦A梦使用的3个秘密道具分别是什么？...
+2025-09-05 14:50:23 - RAGSystem - INFO - ✅ 答案生成完成 - 长度: 135
+2025-09-05 14:50:23 - RAGSystem - INFO - ✅ 查询完成 - 耗时: 6.54秒
+2025-09-05 14:50:23 - RAGSystem - INFO - ℹ️ 开始处理查询: 大雄在精神与时光屋中训练了多长时间？
+2025-09-05 14:50:23 - RAGSystem - INFO - ℹ️ 正在执行语义搜索 - top_k: 5
+2025-09-05 14:50:23 - RAGSystem - INFO - ✅ 搜索完成 - 找到 4 个相关文档
+2025-09-05 14:50:23 - RAGSystem - INFO - ℹ️ 正在重排序 - 文档数量: 4
+2025-09-05 14:50:23 - RAGSystem - INFO - ✅ 重排序完成 - 返回 3 个文档
+2025-09-05 14:50:23 - RAGSystem - INFO - ℹ️ 正在生成答案 - 查询: 大雄在精神与时光屋中训练了多长时间？...
+2025-09-05 14:50:30 - RAGSystem - INFO - ✅ 答案生成完成 - 长度: 141
+2025-09-05 14:50:30 - RAGSystem - INFO - ✅ 查询完成 - 耗时: 6.63秒
+2025-09-05 14:50:30 - RAGSystem - INFO - ℹ️ 开始处理查询: 特兰克斯来自哪里，他遇到了什么问题？
+2025-09-05 14:50:30 - RAGSystem - INFO - ℹ️ 正在执行语义搜索 - top_k: 5
+2025-09-05 14:50:30 - RAGSystem - INFO - ✅ 搜索完成 - 找到 4 个相关文档
+2025-09-05 14:50:30 - RAGSystem - INFO - ℹ️ 正在重排序 - 文档数量: 4
+2025-09-05 14:50:30 - RAGSystem - INFO - ✅ 重排序完成 - 返回 3 个文档
+2025-09-05 14:50:30 - RAGSystem - INFO - ℹ️ 正在生成答案 - 查询: 特兰克斯来自哪里，他遇到了什么问题？...
+2025-09-05 14:50:44 - RAGSystem - INFO - ✅ 答案生成完成 - 长度: 159
+2025-09-05 14:50:44 - RAGSystem - INFO - ✅ 查询完成 - 耗时: 14.39秒
